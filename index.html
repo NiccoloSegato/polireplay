@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <title>Riguarda le lezioni - PoliReplay</title>
+        <meta charset="utf-8" />
+        <link rel="icon" href="./assets/images/favicon.ico" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="Guarda e aggiungi tutte le lezioni registrate del Politecnico di Milano"/>
+        <link rel="manifest" href="./assets/manifest.json" />
+        <meta property="og:type'" content="website">
+        <meta property="og:url'" content="www.polireplay.it">
+        <meta property="og:title'" content="Cerca e riguarda le lezioni - PoliReplay">
+        <meta property="og:image'" content="./assets/images/favicon.ico">
+        <meta property="og:description'" content="Cerca, filtra e riguarda le lezioni online del Politecnico di Milano. Semplice, gratuito e veloce.">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-1F7WCE920D"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-1F7WCE920D');
+        </script>
+    </head>
+    <body>
+        <nav class="navbar bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="https://www.polireplay.it">
+                    <img src="assets/images/logo.png" alt="" height="50">
+                </a>
+            </div>
+        </nav>
+        <div class="container">
+
+            <h1 style="margin-top: 40px; padding-top: 16px; margin-bottom: 0px;" >Riguarda le lezioni online</h1>
+
+            <div class="mb-3">
+                <label style="margin-top: 20px;" for="exampleFormControlInput1" class="form-label">Effettua una ricerca tra più di 3600 lezioni registrate del Politecnico di Milano</label>
+                <input type="text" class="form-control" autocomplete=“off” placeholder="Effettua una ricerca..." id="query" onchange="searchFeed()">
+            </div>
+              
+
+            <div id="feedcontainer">
+                <div id="loaderspin" class="d-flex align-items-center" style="margin: 30px 0;">
+                    <strong>Caricamento...</strong>
+                    <div class="spinner-border ms-auto" role="status" aria-hidden="true"></div>
+                </div>
+            </div>
+
+            <nav id="pagination-box" style="display: none;">
+                <ul class="pagination">
+                    <li class="page-item"><button class="page-link" onclick="loadLess()">Precedente</button></li>
+                    <li class="page-item"><button class="page-link" onclick="loadMore()">Successivo</button></li>
+                </ul>
+            </nav>
+
+            <script src="scripts/feed.js?v=1"></script>
+
+            <!-- FOOTER -->
+            <div id="footbar">
+                <p>© Copyright 2022 Niccolò Segato - All rights reserved -
+                    <a title="Privacy Policy" href="privacy.html" >Privacy Policy</a>
+                    -
+                    <a title="Termini e condizioni" href="termini.html">Termini e condizioni</a>
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
