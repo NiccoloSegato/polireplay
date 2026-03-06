@@ -1,18 +1,14 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/NiccoloSegato/polireplay_old/main/assets/images/lil_logo.png" width="100"/></br>
-  <strong>PoliReplay</strong> - <a href="https://polireplay.it" title="https://polireplay.it">Go to website</a>
-</p>
-
-<p align="center">
-    <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fpolireplay.it&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a>
+  <img src="https://niccolosegato.com/polireplay/assets/logo.png" width="100"/></br>
+  <strong>PoliReplay</strong> - <a href="https://niccolosegato.com/polireplay" title="https://niccolosegato.com/polireplay">Go to website</a>
 </p>
 
 # PoliReplay
 PoliReplay is the platform for students of the Politecnico di Milano where you can find all the online lessons and videos of the polytechnic community.
-Visit the official website at https://polireplay.it 🚀
+Visit the official website at https://niccolosegato.com/polireplay 🚀
 
 ## Privacy Policy
-All the contributions and the data are subject to the PoliReplay pricacy policy, available at https://polireplay.it/privacy
+All the contributions and the data are subject to the PoliReplay pricacy policy, available at https://niccolosegato.com/polireplay/privacy
 
 ## Contributions
 PoliReplay is based on student contributions. So feel free to propose any code changes you deem most appropriate! 💡
